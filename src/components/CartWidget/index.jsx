@@ -1,10 +1,13 @@
 import React from 'react';
-
+import { FaShoppingCart } from 'react-icons/fa';
 
 export const cartWidget = () => {
     return (
-        <i className="bi bi-cart"></i>
+        
+        <FaShoppingCart />
+        
     );
 }
 
 export default cartWidget;
+
